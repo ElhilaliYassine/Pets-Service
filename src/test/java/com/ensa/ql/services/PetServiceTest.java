@@ -32,7 +32,7 @@ public class PetServiceTest {
     }
 
     @Test
-    public void testGetPetById() {
+     void testGetPetById() {
         var ownerRequest = OwnerRequest.builder()
                 .address("31 Spooner Street")
                 .city("Quahog")
@@ -52,7 +52,7 @@ public class PetServiceTest {
     }
 
     @Test
-    public void testGetPets() {
+     void testGetPets() {
         var ownerRequest = OwnerRequest.builder()
                 .address("31 Spooner Street")
                 .city("Quahog")
@@ -72,7 +72,7 @@ public class PetServiceTest {
     }
 
     @Test
-    public void testCreatePet() {
+     void testCreatePet() {
         var ownerRequest = OwnerRequest.builder()
                 .address("31 Spooner Street")
                 .city("Quahog")
@@ -92,7 +92,7 @@ public class PetServiceTest {
     }
 
     @Test
-    public void testUpdatePet() {
+     void testUpdatePet() {
         var ownerRequest = OwnerRequest.builder()
                 .address("31 Spooner Street")
                 .city("Quahog")
@@ -113,7 +113,7 @@ public class PetServiceTest {
     }
 
     @Test
-    public void testDeletePet() {
+     void testDeletePet() {
         var ownerRequest = OwnerRequest.builder()
                 .address("31 Spooner Street")
                 .city("Quahog")
